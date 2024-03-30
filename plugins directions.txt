@@ -1,0 +1,18 @@
+plugins for cypress
+
+fill command is faster than type commanf
+
+1. run in terminal: CD to directory and run: npm install cypress-fill-command
+2. import fill plugin in the commands: import "cypress-fill-command"
+
+
+cypress testing library
+1. run in terminal: npm install --save-dev @testing-library/cypress
+2. import in the commands: import '@testing-library/cypress/add-commands' Cypress.Commands.add(" cy.configureCypressTestingLibrary", config=>{
+    cy.configureCypressTestingLibrary(config)
+})
+
+file upload plugin - this plugin allows for testing upload files
+
+terminal: npm install --save-dev cypress-file-upload
+import in commands: import 'cypress-file-upload';
